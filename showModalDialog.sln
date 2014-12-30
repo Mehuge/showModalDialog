@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "showModalDialog", "example\showModalDialog.csproj", "{C6F0FC10-EB5F-46CD-8989-12DCD71D81C3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "showModalDialog", "showModalDialog\showModalDialog.csproj", "{C6F0FC10-EB5F-46CD-8989-12DCD71D81C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
