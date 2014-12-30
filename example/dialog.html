@@ -1,0 +1,20 @@
+﻿<html>
+<head>
+    <title>Dialog</title>
+</head>
+<body>
+    <h1>A sample dialog</h1>
+    <p>Hello World</p>
+    <p>This dialog returns 'hello'</p>
+    <h2>Dialog Arguments</h2>
+    <div id="args"></div>
+    <p></p>
+    <button onclick="complete('hello')">Close</button>
+    <script>
+        function complete(v) {
+            parent.showModalDialog.returnValue(v);
+        }
+        args.textContent = JSON.stringify(parent.showModalDialog.dialogArguments);
+    </script>
+</body>
+</html>
